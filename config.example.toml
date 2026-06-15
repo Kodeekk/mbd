@@ -1,0 +1,4 @@
+command = "notify-send 'M-Button pressed'"
+# mac = "C1:CA:AA:D4:9A:F0"
+# verbose = true
+# mode = "script"

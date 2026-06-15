@@ -1,0 +1,12 @@
+[Unit]
+Description=M-Button Daemon - run a command when Marshall Major V M-Button is pressed
+After=bluetooth.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/mbd run
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
